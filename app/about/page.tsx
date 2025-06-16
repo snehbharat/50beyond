@@ -76,7 +76,7 @@ const AboutPage = () => {
             className="max-w-4xl mx-auto text-center"
           >
             <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6">
-              About 50-Beyond
+              About 50Beyond
             </h1>
             <p className="text-xl text-gray-600 leading-relaxed">
               We're passionate about helping people find their perfect homes. With over 15 years of experience in the real estate industry, we've built a reputation for excellence, integrity, and exceptional customer service.
@@ -129,7 +129,7 @@ const AboutPage = () => {
               </h2>
               <div className="space-y-4 text-gray-700 leading-relaxed">
                 <p>
-                  50-Beyond was founded in 2009 with a simple mission: to make the process of buying, selling, and renting properties as seamless and stress-free as possible. What started as a small local agency has grown into one of the most trusted names in real estate.
+                  50Beyond was founded in 2009 with a simple mission: to make the process of buying, selling, and renting properties as seamless and stress-free as possible. What started as a small local agency has grown into one of the most trusted names in real estate.
                 </p>
                 <p>
                   Our success is built on the foundation of understanding that buying or selling a home is one of life's most significant decisions. That's why we've assembled a team of dedicated professionals who are committed to providing personalized service and expert guidance every step of the way.
