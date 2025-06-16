@@ -35,7 +35,7 @@ const ContactPage = () => {
     {
       icon: Mail,
       title: 'Email Us',
-      content: 'info@50-Beyond.com\nsupport@50-Beyond.com',
+      content: 'info@50Beyond.com\nsupport@50Beyond.com',
       color: 'from-purple-500 to-purple-600'
     },
     {
@@ -252,7 +252,7 @@ const ContactPage = () => {
             >
               <div>
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">
-                  Why Choose 50-Beyond?
+                  Why Choose 50Beyond?
                 </h3>
                 <div className="space-y-4">
                   {[
