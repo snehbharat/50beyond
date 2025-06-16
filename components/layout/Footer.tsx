@@ -14,7 +14,7 @@ const Footer = () => {
               <div className="w-8 h-8 bg-gradient-to-br from-blue-500 to-teal-500 rounded-lg flex items-center justify-center">
                 <Home className="h-5 w-5 text-white" />
               </div>
-              <span className="text-xl font-bold">50-Beyond</span>
+              <span className="text-xl font-bold">50Beyond</span>
             </Link>
             <p className="text-gray-400 text-sm leading-relaxed">
               Your trusted partner in finding the perfect home. We provide exceptional real estate services with expertise and dedication.
@@ -89,7 +89,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center space-x-3">
                 <Mail className="h-4 w-4 text-blue-500 flex-shrink-0" />
-                <span className="text-gray-400 text-sm">info@50-Beyond.com</span>
+                <span className="text-gray-400 text-sm">info@50Beyond.com</span>
               </div>
             </div>
           </div>
@@ -98,7 +98,7 @@ const Footer = () => {
         <div className="border-t border-gray-800 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-400 text-sm">
-              © {currentYear} 50-Beyond. All rights reserved.
+              © {currentYear} 50Beyond. All rights reserved.
             </p>
             <div className="flex space-x-6 mt-4 md:mt-0">
               <Link href="#" className="text-gray-400 hover:text-white text-sm transition-colors">
