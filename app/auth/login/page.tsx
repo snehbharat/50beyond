@@ -44,7 +44,7 @@ const LoginPage = () => {
                 <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-teal-500 rounded-2xl flex items-center justify-center">
                   <Home className="h-7 w-7 text-white" />
                 </div>
-                <span className="text-3xl font-bold text-gray-900">50-Beyond</span>
+                <span className="text-3xl font-bold text-gray-900">50Beyond</span>
               </Link>
               
               <h1 className="text-4xl font-bold text-gray-900 mb-6">
@@ -93,7 +93,7 @@ const LoginPage = () => {
                 <div className="w-10 h-10 bg-gradient-to-br from-blue-500 to-teal-500 rounded-xl flex items-center justify-center">
                   <Home className="h-6 w-6 text-white" />
                 </div>
-                <span className="text-2xl font-bold text-gray-900">50-Beyond</span>
+                <span className="text-2xl font-bold text-gray-900">50Beyond</span>
               </Link>
             </div>
 
