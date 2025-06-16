@@ -51,7 +51,7 @@ const Header = () => {
               "text-xl font-bold transition-colors",
               isScrolled ? "text-gray-900" : "text-gray-100"
             )}>
-              50-Beyond
+              50Beyond
             </span>
           </Link>
 
