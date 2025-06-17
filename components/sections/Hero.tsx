@@ -6,6 +6,7 @@ import { Search, MapPin, Home, DollarSign, Play, Star } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
+import Link from 'next/link';
 
 const Hero = () => {
   const [searchQuery, setSearchQuery] = useState('');
@@ -41,14 +42,14 @@ const Hero = () => {
             }}
           />
         </video>
-        
+
         {/* Enhanced Dark Overlay for Better Text Visibility */}
         <div className="absolute inset-0 bg-gradient-to-br from-black/40 via-gray-900/45 to-black/50" />
         <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-black/20" />
-        
+
         {/* Additional subtle overlay for extra contrast */}
         <div className="absolute inset-0 bg-black/15" />
-        
+
         {/* Animated Overlay Pattern */}
         <div className="absolute inset-0 opacity-10">
           <div className="absolute inset-0" style={{
@@ -155,7 +156,7 @@ const Hero = () => {
             className="mb-12"
           >
             <p className="text-xl md:text-2xl text-white/95 max-w-3xl mx-auto leading-relaxed drop-shadow-lg">
-              Discover premium properties with our expert team. From luxury estates to cozy homes, 
+              Discover premium properties with our expert team. From luxury estates to cozy homes,
               <motion.span
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
@@ -176,7 +177,7 @@ const Hero = () => {
           >
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-6">
               {/* Location with Enhanced Styling */}
-              <motion.div 
+              <motion.div
                 className="relative group"
                 whileHover={{ scale: 1.02 }}
                 transition={{ duration: 0.2 }}
@@ -250,18 +251,20 @@ const Hero = () => {
                 { label: 'Condos', icon: '🏙️' },
                 { label: 'Investment Properties', icon: '📈' }
               ].map((tag, index) => (
-                <motion.button
-                  key={tag.label}
-                  initial={{ opacity: 0, y: 10 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={{ delay: 1 + index * 0.1 }}
-                  whileHover={{ scale: 1.05, y: -2 }}
-                  whileTap={{ scale: 0.95 }}
-                  className="px-6 py-3 text-sm bg-gradient-to-r from-gray-100 to-gray-200 hover:from-blue-100 hover:to-teal-100 rounded-full transition-all duration-300 shadow-md hover:shadow-lg font-medium"
-                >
-                  <span className="mr-2">{tag.icon}</span>
-                  {tag.label}
-                </motion.button>
+                <Link href="/listings">
+                  <motion.button
+                    key={tag.label}
+                    initial={{ opacity: 0, y: 10 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ delay: 1 + index * 0.1 }}
+                    whileHover={{ scale: 1.05, y: -2 }}
+                    whileTap={{ scale: 0.95 }}
+                    className="px-6 py-3 text-sm bg-gradient-to-r from-gray-100 to-gray-200 hover:from-blue-100 hover:to-teal-100 rounded-full transition-all duration-300 shadow-md hover:shadow-lg font-medium"
+                  >
+                    <span className="mr-2">{tag.icon}</span>
+                    {tag.label}
+                  </motion.button>
+                </Link>
               ))}
             </div>
           </motion.div>
