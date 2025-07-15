@@ -161,7 +161,7 @@ export default function PropertyPageClient({ params }: PropertyPageClientProps) 
             >
               {/* Header */}
               <div className="mb-6">
-                <div className="flex flex-col md:flex-row items-center justify-between mb-4">
+                <div className="flex flex-col md:flex-row items-center justify-start md:justify-between mb-4">
                   <h1 className="text-3xl md:text-4xl font-bold text-gray-900">
                     {property.title}
                   </h1>
