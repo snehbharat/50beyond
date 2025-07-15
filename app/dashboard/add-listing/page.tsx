@@ -388,7 +388,7 @@ const AddListingPage = () => {
           transition={{ delay: 0.1 }}
           className="mb-8"
         >
-          <div className="flex items-center justify-between mb-4">
+          <div className="flex items-center justify-between mb-4 overflow-x-auto">
             {[1, 2, 3, 4].map((step) => (
               <div key={step} className="flex items-center">
                 <div
